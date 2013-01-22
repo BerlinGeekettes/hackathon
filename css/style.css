@@ -31,7 +31,12 @@ body {
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 	color: #404956;
+}
 
+@media (max-width: 767px) {
+	.container {
+		max-width: 500px;
+	}
 }
 
 #wrapper {
