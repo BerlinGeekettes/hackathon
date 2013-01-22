@@ -76,19 +76,43 @@ body {
 
 }
 
-hr {
-	margin-top: 40px;
+.row article {
+	padding-bottom: 20px;
 }
-
 
 /*-----------------------------------------------------------------------------
 =02 HERO UNIT (BANNER)
 -----------------------------------------------------------------------------*/
 
-.hero-unit::after {
+.hero-unit {
+	height: 320px;
+}
+
+.hero-unit:after {
+	height: 440px;
+}
+
+.hero-unit h1 {
+	padding-top: 0;
+}
+
+@media all and (min-width: 450px) {
+	.hero-unit {
+		height: 450px;
+	}
+
+	.hero-unit:after {
+		height: 570px;
+	}
+
+	.hero-unit h1 {
+		padding-top: 130px;
+	}
+}
+
+.hero-unit:after {
 	display: block;
 	background-color: rgba(0, 0, 0, .65);
-	height: 570px;
 	width: 100%;
 	border-radius: 6px;
 	position: absolute;
@@ -105,7 +129,6 @@ hr {
 
 .hero-unit {
 	position: relative;
-	height: 450px;
 	display: block;
 	background-color: #262822;
 	background-image: url(../img/screenshot_hackathon_py2.png);
@@ -115,7 +138,6 @@ hr {
 	color: rgba(256,256,256,0.95);
 	font-size: 36px;
 	font-weight: 300;
-	padding-top: 130px;
 	margin-bottom: 50px;
 	letter-spacing: 0.8px;
 	text-shadow: rgba(0, 0, 0, 1) 0px 1px 1px;
