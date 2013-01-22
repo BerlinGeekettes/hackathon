@@ -1,0 +1,338 @@
+/*
+Theme Name: Berlin Geekettes Hackathon
+
+[Table Of Contents] 
+
+	01- BODY
+	02- HERO UNIT 
+	03- GLOBAL STYLES 
+	04- NAV
+	05- SOCIAL MEDIA
+	06- MISC
+	07- FOOTER
+
+*/
+
+/*----------------------------------------------------------------------------- 
+=01 BODY 
+-----------------------------------------------------------------------------*/
+
+@font-face {  
+  font-family: ssPika;  
+  src: url(../font/ss-pika.ttf ) format("truetype");  
+}  
+
+body {
+	font-size: 16px;
+	background: #fff; /* alternative #f7f7f7*/
+	/*
+	font-family: 'Varela', sans-serif;
+	*/
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	color: #404956;
+
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff; /* alternative #f7f7f7*/
+}
+
+::selection {
+	background-color: rgba(86,97,116,0.9); /* Safari */
+	color: white;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background-color: rgba(86,97,116,0.9); /* Firefox */
+	text-shadow: none;
+	color: white;
+}
+
+.text-centered {
+	text-align: center;
+}
+
+/*#container {
+	padding-top: 1px;
+	width: 100%;
+}
+
+#container div {
+	color: white;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}*/
+
+#first-section {
+	/*background: #5783A5;*/
+}
+
+.text-shadow {
+	
+}
+
+hr {
+	margin-top: 40px;
+}
+
+
+/*----------------------------------------------------------------------------- 
+=02 HERO UNIT (BANNER) 
+-----------------------------------------------------------------------------*/
+
+.hero-unit {
+	height: 450px;
+	display: block;
+	background-color: #262822;
+	background-image: url(../img/screenshot_hackathon_py2.png);
+}
+
+.hero-unit h1 {
+	color: rgba(256,256,256,0.95);
+	font-size: 36px;
+	font-weight: 300;
+	padding-top: 130px;
+	margin-bottom: 50px;
+	letter-spacing: 0.8px;
+	text-shadow: rgba(0, 0, 0, 1) 0px 1px 1px;
+}
+
+.hero-unit p, button {
+	text-align: center;
+}
+
+#register h2 {
+	color: rgba(256,256,256,0.9);
+	text-shadow: none;
+}
+
+#register p {
+	font-size: 20px;
+	color: rgba(256,256,256,0.8);
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 1px;
+}
+
+.bg-bracket {
+	font-family: 'Varela', sans-serif;
+	font-size: 30px;
+	padding-top: 10px;
+	color: #ee4444;
+}
+
+
+/*----------------------------------------------------------------------------- 
+=03 ICONS STYLE PIKA
+-----------------------------------------------------------------------------*/
+
+.pika-icon {
+	font-family: ssPika;
+	font-size: 25px;
+	color: #fff;
+	line-height:30px;
+	text-align: center;
+}
+
+.circle {
+	width:60px;
+	height:60px;
+	border-radius:50px;
+	font-family: ssPika;
+	font-size: 25px;
+	color: #f7f7f7;
+	text-align: center;
+	line-height:65px;
+	background:#ee4444;
+	margin: 0 auto;
+}
+
+.pika-icon-section {
+	font-family: ssPika;
+	font-size: 24px;
+	color: rgba(64,73,86,0.7);
+	/* #404956 */
+	text-shadow: none;
+	padding-right: 10px;
+	padding-top: 15px;
+	line-height: 20px;
+	text-align: center;
+}
+
+
+.span12 h2 {
+	margin: 0 auto; 
+}
+
+
+.scrollspy-example {  
+	height: 200px;  
+	overflow: auto;  
+	position: relative;  
+} 
+
+
+/*----------------------------------------------------------------------------- 
+=04 HEADERS 
+-----------------------------------------------------------------------------*/
+
+.header-section {
+	padding: 40px 0 35px 0;
+}
+
+
+h1 {
+	font-weight: 100;
+	line-height: 1.05em;
+	font-size: 80px;
+	color: #fff;
+	margin-bottom: 33px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Varela', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: -0.2px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #1f242a;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: 300;
+	margin: 20px 0 20px 0;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+
+/*----------------------------------------------------------------------------- 
+=05 BODYCOPY 
+-----------------------------------------------------------------------------*/
+
+
+p {
+	font-size: 15px;
+	color: #4b5565;
+	text-shadow: 0 1px 0 white;
+	line-height: 1.6em;
+}
+
+a, a:visited {
+	color: #ee4444;
+	text-decoration: none;
+	padding: 3px;
+}
+
+a:hover {
+	color: white;
+	background-color: #ee4444;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.yellow-bg {
+	background-color: #fffdd2;
+	color: #343434;
+	text-shadow: none;
+	padding: 0 6px 0 6px;
+	border-bottom: 1px solid #fff73a;
+}
+
+/*.nav li{
+	float: right;
+	background-color: gray;
+}
+*/
+
+
+/*----------------------------------------------------------------------------- 
+=06 NAVIGATION 
+-----------------------------------------------------------------------------*/
+
+.navbar-inverse .navbar-inner{
+	background: rgba(17,15,15,0.9);
+}
+
+.navbar .brand {
+	font-size: 14px;
+}
+
+.navbar a {
+	font-family: 'Varela', sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.333px;
+	text-transform: uppercase;
+}
+
+#first-section h2{
+	/*color: #6c7a91;*/
+	text-shadow: none;
+}
+
+
+
+.hours {
+	color: rgba(64,73,86,0.5);
+	margin-bottom: 0;
+}
+
+.dayplanning {
+	font-size: 15px;
+	color: #6c7a91;
+	text-shadow: 0 1px 0 white;
+	line-height: 1.6em;
+}
+
+/*h5 {
+	font-family: ssPika;
+	font-size: 30px;
+	color: #6c7a91;
+	text-shadow: 0 1px 0 white;
+	text-align: center;
+}*/
+
+/*----------------------------------------------------------------------------- 
+=07 API LIST
+-----------------------------------------------------------------------------*/
+#apilist li {
+	float: left;
+	display: inline;
+	margin: 20px;
+	font-size: 20px;
+}
+
+#apilist a:hover {
+
+}
+	
+
+/*----------------------------------------------------------------------------- 
+=08 FOOTER 
+-----------------------------------------------------------------------------*/
+
+
+footer {
+	height: 80px;
+	padding: 30px;
+	margin: 0 auto;
+	background-color: #455860;
+}
+
+footer p{
+	font-size: 13px;
+	color: #f7f7f7;
+	line-height: 1.6em;
+	letter-spacing: 0.8px;
+	text-shadow: none;
+}
