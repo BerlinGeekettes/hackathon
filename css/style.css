@@ -88,8 +88,9 @@ hr {
 .hero-unit::after {
 	display: block;
 	background-color: rgba(0, 0, 0, .65);
-	height: 450px;
+	height: 510px;
 	width: 100%;
+	border-radius: 10px;
 	position: absolute;
 	z-index: 1;
 	top: 0;
@@ -104,6 +105,7 @@ hr {
 
 .hero-unit {
 	position: relative;
+	border-radius: 10px;
 	height: 450px;
 	display: block;
 	background-color: #262822;
