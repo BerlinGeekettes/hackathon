@@ -94,8 +94,9 @@ body {
 
 .hero-unit h1 {
 	padding-top: 0;
-	font-size: 32px;
 	margin-bottom: 30px;
+	margin-left: -30px;
+	margin-right: -30px;
 }
 
 @media all and (min-width: 450px) {
@@ -109,8 +110,9 @@ body {
 
 	.hero-unit h1 {
 		padding-top: 130px;
-		font-size: 36px;
 		margin-bottom: 50px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 }
 
@@ -141,6 +143,7 @@ body {
 .hero-unit h1 {
 	color: rgba(256,256,256,0.95);
 	font-weight: 300;
+	font-size: 36px;
 	letter-spacing: 0.8px;
 	text-shadow: rgba(0, 0, 0, 1) 0px 1px 1px;
 }
