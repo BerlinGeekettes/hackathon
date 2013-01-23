@@ -21,6 +21,8 @@ Theme Name: Berlin Geekettes Hackathon
 @font-face {
   font-family: ssPika;
   src: url(../font/ss-pika.ttf ) format("truetype");
+  font-family: ssPikaSocial;
+  src: url(../font/ss-social-regular.ttf ) format("truetype");
 }
 
 body {
@@ -84,6 +86,13 @@ body {
 
 .row article {
 	padding-bottom: 20px;
+}
+
+.bg-white {
+	width:370px;
+	background: #fff;
+	z-index: 1;
+	padding-left: 30px;
 }
 
 
@@ -216,6 +225,17 @@ body {
 	text-align: center;
 }
 
+.pikasocial-icon-section{
+	font-family: ssPikaSocial;
+	font-size: 18px;
+	color: rgba(64,73,86,0.7);
+	/* #404956 */
+	text-shadow: none;
+	padding-right: 10px;
+	padding-top: 15px;
+	line-height: 20px;
+	text-align: center;
+}
 
 .span12 h2 {
 	margin: 0 auto;
