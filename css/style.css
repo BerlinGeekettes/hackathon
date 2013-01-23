@@ -5,11 +5,12 @@ Theme Name: Berlin Geekettes Hackathon
 
 	01- BODY
 	02- HERO UNIT
-	03- GLOBAL STYLES
-	04- NAV
-	05- SOCIAL MEDIA
-	06- MISC
-	07- FOOTER
+	03- ICON STYLE
+	04- HEADERS
+	05- BODYCOPY
+	06- NAVIGATION
+	07- API LIST
+	08- FOOTER
 
 */
 
@@ -85,6 +86,7 @@ body {
 	padding-bottom: 20px;
 }
 
+
 /*-----------------------------------------------------------------------------
 =02 HERO UNIT (BANNER)
 -----------------------------------------------------------------------------*/
@@ -155,6 +157,7 @@ body {
 
 .hero-unit p, button {
 	text-align: center;
+	text-shadow: none;
 }
 
 #attend h2 {
@@ -371,19 +374,20 @@ a:hover {
 /*-----------------------------------------------------------------------------
 =08 FOOTER
 -----------------------------------------------------------------------------*/
-
+.bg-footer {
+	width: 100%;
+	max-height: 30px;
+}
 
 footer {
-	height: 80px;
-	padding: 30px;
+	max-width: 1170px; 
+	padding: 40px 0 0 10px;
 	margin: 0 auto;
-	background-color: #455860;
 }
 
 footer p{
 	font-size: 13px;
-	color: #f7f7f7;
-	line-height: 1.6em;
+	color: rgba(64,73,86,1);
 	letter-spacing: 0.8px;
-	text-shadow: none;
+	text-shadow: 0 1px 0 white;
 }
