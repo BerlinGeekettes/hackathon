@@ -21,9 +21,13 @@ Theme Name: Berlin Geekettes Hackathon
 @font-face {
   font-family: ssPika;
   src: url(../font/ss-pika.ttf ) format("truetype");
+}
+
+@font-face {
   font-family: ssPikaSocial;
   src: url(../font/ss-social-regular.ttf ) format("truetype");
 }
+
 
 body {
 	font-size: 16px;
@@ -400,7 +404,7 @@ a:hover {
 }
 
 footer {
-	max-width: 1170px; 
+	max-width: 1170px;
 	padding: 40px 0 0 10px;
 	margin: 0 auto;
 }
