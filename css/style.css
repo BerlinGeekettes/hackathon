@@ -111,6 +111,12 @@ body {
 	margin-right: -30px;
 }
 
+.hero-unit > img {
+	opacity:0.9;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
+
+}
+
 @media all and (min-width: 450px) {
 	.hero-unit {
 		height: 450px;
