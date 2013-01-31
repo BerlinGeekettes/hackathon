@@ -449,11 +449,12 @@ SPONSORS
 }
 
 .sponsor-logo-major {
-	width: 20%;
+	width: 22%;
 	max-width: 200px;
 }
 
 .sponsor-logo-partner {
-	max-width: 15%;
+	max-width: 12%;
 	max-height: 50px;
+	margin-bottom: 20px;
 }
