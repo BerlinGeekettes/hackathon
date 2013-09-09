@@ -453,7 +453,13 @@ SPONSORS
 }
 
 .sponsor-logo-partner {
-	max-width: 12%;
-	max-height: 50px;
+	max-width: 20%;
+	max-height: 130px;
+	margin-bottom: 20px;
+}
+
+.sponsor-logo-supporter {
+	max-width: 15%;
+	max-height: 75px;
 	margin-bottom: 20px;
 }
